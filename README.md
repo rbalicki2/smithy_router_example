@@ -10,7 +10,6 @@ Clone the following repositories into subfolders of the same folder:
 
 * `git@github.com:rbalicki2/smithy_router_example.git` (this one)
 * `git@github.com:rbalicki2/smithy-app-server`
-* `git@github.com:rbalicki2/smithy`
 
 ### Start the app
 
