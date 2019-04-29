@@ -1,10 +1,4 @@
-#![feature(
-  proc_macro_hygiene,
-  slice_patterns,
-  custom_attribute,
-  extern_crate_item_prelude,
-  bind_by_move_pattern_guards
-)]
+#![feature(proc_macro_hygiene, slice_patterns)]
 
 use wasm_bindgen::prelude::*;
 
