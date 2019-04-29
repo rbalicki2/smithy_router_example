@@ -9,7 +9,7 @@ crate-type = ["cdylib"]
 
 [dependencies]
 wasm-bindgen = { version = "< 0.2.39", features = ["nightly"] }
-smithy = { version = "0.0.2", path = "../smithy/crates/smithy", features = [
+smithy = { version = "0.0.3", path = "../smithy/crates/smithy", features = [
   "mouse-events",
   "hash-change-events",
  ], default-features = false }
