@@ -8,10 +8,12 @@ edition = "2018"
 crate-type = ["cdylib"]
 
 [dependencies]
-wasm-bindgen = { version = "< 0.2.39", features = ["nightly"] }
-smithy = { version = "0.0.3", features = [
+wasm-bindgen = { version = "0.2.47", features = ["nightly"] }
+smithy = { version = "0.0.5", path="../smithy/crates/smithy", features = [
   "mouse-events",
   "hash-change-events",
+  "smd-logs",
+  "browser-logs",
  ], default-features = false }
 web-sys = { version = "0.3.5", features = [
   "Location",
