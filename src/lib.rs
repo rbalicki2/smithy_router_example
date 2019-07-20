@@ -10,7 +10,7 @@ use self::util::{
 };
 use smithy::{
   smd,
-  smd_no_move,
+  smd_borrowed,
   types::{
     Component,
     SmithyComponent,
@@ -99,7 +99,7 @@ pub fn render() -> impl Component {
     }};
     {
       match page {
-        Page::Home => smd_no_move!(
+        Page::Home => smd_borrowed!(
           <h1>Planets</h1>
           <ul>
             {
